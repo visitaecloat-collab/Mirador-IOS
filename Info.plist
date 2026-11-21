@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>es</string>
+    <key>CFBundleDisplayName</key>
+    <string>Mirador</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.mirador.heritage</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>mirador</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Mirador usa tu ubicación solo mientras usas la app para calcular distancias a pie, ordenar rutas y avisarte cuando estés frente a un monumento.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Mirador usa la cámara en tiempo real para identificar monumentos históricos sin grabar ni almacenar vídeo.</string>
+    <key>SUPABASE_URL</key>
+    <string>https://your-project-ref.supabase.co</string>
+    <key>SUPABASE_ANON_KEY</key>
+    <string>your_supabase_anon_key_here</string>
+</dict>
+</plist>

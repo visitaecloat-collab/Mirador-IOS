@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0E83B317673736B41AA8A72 /* MiradorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785000A4B952FC837C3A982 /* MiradorApp.swift */; };
+		9B7DE6B406C01D38962F5613 /* MiradorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661E5CF04D8CECB39B84001 /* MiradorTheme.swift */; };
+		77C8621879714D06CFE5C215 /* MiradorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B017BFB99EE29F5B272767E6 /* MiradorModels.swift */; };
+		49A514F4DBF429C5CEF4913D /* AudioGuideService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08D28F1D9AD96CDA522BAF /* AudioGuideService.swift */; };
+		FE9DC15F197CEC4DA1EF4E8D /* LocationProximityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF61E468E12EA550FDA081 /* LocationProximityService.swift */; };
+		111366C2076ECD8339D77846 /* StoreKitSubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC573BF3BBA469B8AB46E6AB /* StoreKitSubscriptionService.swift */; };
+		BE63B3938143DE506C934537 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76320931B86AA90B5724A4 /* SupabaseService.swift */; };
+		CFC80DAD4D22F3D4C86E6CCF /* MiradorAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B5EB929DE76D729EE63CA /* MiradorAppState.swift */; };
+		64C4129650ED2850703F3F06 /* AuthFlowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADAE5E6299882B8083FD973 /* AuthFlowViews.swift */; };
+		411222B28A4A7CA0DDFA9735 /* CameraRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A21A0BD9DAA3A27EA2985 /* CameraRecognitionView.swift */; };
+		A3C3BBF77B9764EC6004F68D /* MapExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3D157FDB0DC83543EAEF6 /* MapExploreView.swift */; };
+		EF574F91ABA19EBF7C9C899A /* ProfileAndPrivacyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71DC51432AFE9A5D90CE68 /* ProfileAndPrivacyViews.swift */; };
+		7C0EB8952E887F741F96296E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D16CDB691ACED07B2B0B0 /* RootView.swift */; };
+		5D05D00F3CBE40B5BD8CF0A5 /* RoutePlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6CD6572FD312989C998D7 /* RoutePlannerView.swift */; };
+		CCEAFEAFE870BE3CFD19E910 /* SearchAndOfflineViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB695B538B3D7C2246AC41 /* SearchAndOfflineViews.swift */; };
+		65D24E6427C7BCB831ADED62 /* SiteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A389F1B6EA7E72B8C22875 /* SiteDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA5D01CB3BE4267A3222312 /* Mirador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0785000A4B952FC837C3A982 /* MiradorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiradorApp.swift"; sourceTree = "<group>"; };
+		F661E5CF04D8CECB39B84001 /* MiradorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiradorTheme.swift"; sourceTree = "<group>"; };
+		B017BFB99EE29F5B272767E6 /* MiradorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiradorModels.swift"; sourceTree = "<group>"; };
+		5B08D28F1D9AD96CDA522BAF /* AudioGuideService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioGuideService.swift"; sourceTree = "<group>"; };
+		02DF61E468E12EA550FDA081 /* LocationProximityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationProximityService.swift"; sourceTree = "<group>"; };
+		CC573BF3BBA469B8AB46E6AB /* StoreKitSubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoreKitSubscriptionService.swift"; sourceTree = "<group>"; };
+		DC76320931B86AA90B5724A4 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SupabaseService.swift"; sourceTree = "<group>"; };
+		E88B5EB929DE76D729EE63CA /* MiradorAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiradorAppState.swift"; sourceTree = "<group>"; };
+		DADAE5E6299882B8083FD973 /* AuthFlowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthFlowViews.swift"; sourceTree = "<group>"; };
+		017A21A0BD9DAA3A27EA2985 /* CameraRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraRecognitionView.swift"; sourceTree = "<group>"; };
+		EFE3D157FDB0DC83543EAEF6 /* MapExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapExploreView.swift"; sourceTree = "<group>"; };
+		8A71DC51432AFE9A5D90CE68 /* ProfileAndPrivacyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileAndPrivacyViews.swift"; sourceTree = "<group>"; };
+		FB4D16CDB691ACED07B2B0B0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		84F6CD6572FD312989C998D7 /* RoutePlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoutePlannerView.swift"; sourceTree = "<group>"; };
+		65DB695B538B3D7C2246AC41 /* SearchAndOfflineViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchAndOfflineViews.swift"; sourceTree = "<group>"; };
+		06A389F1B6EA7E72B8C22875 /* SiteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SiteDetailView.swift"; sourceTree = "<group>"; };
+		04C165BFC61BB770D0529EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E8E7DF88D31078DBF4E18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDF21D5350607BFF22C2709 = {
+			isa = PBXGroup;
+			children = (
+				B1443F8A3D4D12506D915689 /* MiradorIOS */,
+				50CF74D469E6088F9EB7D00E /* Products */,
+				04C165BFC61BB770D0529EA7 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		50CF74D469E6088F9EB7D00E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA5D01CB3BE4267A3222312 /* Mirador.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1443F8A3D4D12506D915689 /* MiradorIOS */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA8E5095D2808C00DB2C97 /* Theme */,
+				AB57A527D1BA9FBFB236028F /* Models */,
+				4FB096A4286A77BD94438835 /* Services */,
+				730FC563871273FC19384E92 /* State */,
+				FBFEB98686E6F3BFAB5373E4 /* Views */,
+				DE86D8E9A0C76BD675A9A04C /* Root */,
+			);
+			path = MiradorIOS;
+			sourceTree = "<group>";
+		};
+		BCDA8E5095D2808C00DB2C97 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F661E5CF04D8CECB39B84001 /* MiradorTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		AB57A527D1BA9FBFB236028F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B017BFB99EE29F5B272767E6 /* MiradorModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FB096A4286A77BD94438835 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5B08D28F1D9AD96CDA522BAF /* AudioGuideService.swift */,
+				02DF61E468E12EA550FDA081 /* LocationProximityService.swift */,
+				CC573BF3BBA469B8AB46E6AB /* StoreKitSubscriptionService.swift */,
+				DC76320931B86AA90B5724A4 /* SupabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		730FC563871273FC19384E92 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				E88B5EB929DE76D729EE63CA /* MiradorAppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		FBFEB98686E6F3BFAB5373E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DADAE5E6299882B8083FD973 /* AuthFlowViews.swift */,
+				017A21A0BD9DAA3A27EA2985 /* CameraRecognitionView.swift */,
+				EFE3D157FDB0DC83543EAEF6 /* MapExploreView.swift */,
+				8A71DC51432AFE9A5D90CE68 /* ProfileAndPrivacyViews.swift */,
+				FB4D16CDB691ACED07B2B0B0 /* RootView.swift */,
+				84F6CD6572FD312989C998D7 /* RoutePlannerView.swift */,
+				65DB695B538B3D7C2246AC41 /* SearchAndOfflineViews.swift */,
+				06A389F1B6EA7E72B8C22875 /* SiteDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE86D8E9A0C76BD675A9A04C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				0785000A4B952FC837C3A982 /* MiradorApp.swift */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39891E1E144BE1459B107948 /* MiradorIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4708D4CFF2398BAD54D31A /* Build configuration list for PBXNativeTarget "MiradorIOS" */;
+			buildPhases = (
+				65FA6119905E087A5E53253D /* Sources */,
+				A6E8E7DF88D31078DBF4E18B /* Frameworks */,
+				7997A58CB6F97DD5FFDE7900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiradorIOS;
+			productName = MiradorIOS;
+			productReference = 3DA5D01CB3BE4267A3222312 /* Mirador.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E0A9594F29E0DC5FCAAC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				ORGANIZATIONNAME = "Mirador";
+				TargetAttributes = {
+					39891E1E144BE1459B107948 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = B2BE817334BDE0D051010E74 /* Build configuration list for PBXProject "Mirador" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				es,
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 7BDF21D5350607BFF22C2709;
+			productRefGroup = 50CF74D469E6088F9EB7D00E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39891E1E144BE1459B107948 /* MiradorIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7997A58CB6F97DD5FFDE7900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FA6119905E087A5E53253D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E83B317673736B41AA8A72 /* MiradorApp.swift in Sources */,
+				9B7DE6B406C01D38962F5613 /* MiradorTheme.swift in Sources */,
+				77C8621879714D06CFE5C215 /* MiradorModels.swift in Sources */,
+				49A514F4DBF429C5CEF4913D /* AudioGuideService.swift in Sources */,
+				FE9DC15F197CEC4DA1EF4E8D /* LocationProximityService.swift in Sources */,
+				111366C2076ECD8339D77846 /* StoreKitSubscriptionService.swift in Sources */,
+				BE63B3938143DE506C934537 /* SupabaseService.swift in Sources */,
+				CFC80DAD4D22F3D4C86E6CCF /* MiradorAppState.swift in Sources */,
+				64C4129650ED2850703F3F06 /* AuthFlowViews.swift in Sources */,
+				411222B28A4A7CA0DDFA9735 /* CameraRecognitionView.swift in Sources */,
+				A3C3BBF77B9764EC6004F68D /* MapExploreView.swift in Sources */,
+				EF574F91ABA19EBF7C9C899A /* ProfileAndPrivacyViews.swift in Sources */,
+				7C0EB8952E887F741F96296E /* RootView.swift in Sources */,
+				5D05D00F3CBE40B5BD8CF0A5 /* RoutePlannerView.swift in Sources */,
+				CCEAFEAFE870BE3CFD19E910 /* SearchAndOfflineViews.swift in Sources */,
+				65D24E6427C7BCB831ADED62 /* SiteDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		381719601BF57419E038C5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C12C5BE685ACDC8E7E8020CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A4C70B3EC18B4C4F5876282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirador.heritage.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368E70629B2AEFD4259AA6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirador.heritage.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2BE817334BDE0D051010E74 /* Build configuration list for PBXProject "Mirador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381719601BF57419E038C5F4 /* Debug */,
+				C12C5BE685ACDC8E7E8020CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4708D4CFF2398BAD54D31A /* Build configuration list for PBXNativeTarget "MiradorIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4C70B3EC18B4C4F5876282 /* Debug */,
+				368E70629B2AEFD4259AA6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E0A9594F29E0DC5FCAAC34 /* Project object */;
+}
